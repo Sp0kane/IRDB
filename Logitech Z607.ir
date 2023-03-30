@@ -1,0 +1,86 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 84 74 00 00
+command: FF 00 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NECext
+address: 82 72 00 00
+command: A8 57 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C7 38 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C8 37 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: B9 46 00 00
+# 
+name: RCA
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: F9 06 00 00
+# 
+name: 5_1_2_1
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: EC 13 00 00
+# 
+name: Channel_lvl
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9260 4404 662 470 660 472 659 495 636 496 635 498 633 499 633 499 632 1623 632 500 632 500 632 500 632 500 632 1624 631 1624 631 1624 631 500 632 1624 631 500 632 500 632 500 632 500 632 500 632 1624 631 1624 631 500 632 1623 632 1624 631 1624 631 1624 631 1624 632 500 632 500 632 43923 9123 2186 631
+# 
+name: Aux
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: B4 4B 00 00
+# 
+name: Bluetooth
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9258 4399 664 467 662 470 660 493 637 494 636 496 634 498 633 498 633 1621 633 499 632 499 632 499 632 499 632 1621 633 1621 633 1622 632 499 632 499 632 1622 632 498 633 1622 632 1622 632 1622 632 499 632 1622 632 1622 632 499 632 1622 632 499 632 499 632 499 632 1622 632 499 632
+# 
+name: FM_Radio
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: ED 12 00 00
+# 
+name: SD_USB
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: EA 15 00 00
+# 
+name: Tune_left
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: AE 51 00 00
+# 
+name: Tune_Right
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: AF 50 00 00
